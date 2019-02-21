@@ -1,0 +1,62 @@
+body {
+    margin:0;
+}
+
+#home-img {
+    width: 100%;  
+    z-index: -20;
+    position: fixed;
+}
+
+#swap1, #swap2, #swap3, #swap4, #swap5, #swap6, #swap7 {
+
+    display:none;
+
+    position:fixed;
+
+    z-index:-10;   
+}
+
+.bg-image {
+    width: 100%;   
+}
+
+img {
+    width: 100%;   
+}
+
+.bg-gif {
+    width: 100%;   
+}
+
+.bg-vid {
+    width: 100%; 
+    height: 1000px;
+    background-color: #000000;
+}
+
+#kittenvid {
+    width: 50%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-color {
+    width: 100%;
+    height: 1000px;
+    background-color: #000000;
+}
+
+#text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    width: 60%;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    line-height: 25px;
+}
